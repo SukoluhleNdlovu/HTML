@@ -1,0 +1,117 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 23, 2022, 10:00:27 AM
+    Author     : ADMIN
+*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+ body {
+     background-color: black;
+ }
+  *{
+      margin:0px;
+      padding:0px;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+  }
+  nav{
+      width: 100%;
+      height: 75px;
+      background-color: #505d61;
+      line-height: 75px;
+      padding:0px 100px;
+      position: fixed;
+      z-index: 1;   
+  }
+  
+  nav.logo{
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: 0.8px;
+  }
+  nav.logo p{
+      float: left;
+      color: #fff;
+      text-transform: uppercase;
+  }
+  nav ul{
+      float: right;
+  }
+  nav ul li{
+      display: inline-block;
+      list-style: none;
+  }
+  nav ul li a{
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      text-transform: uppercase;
+      padding: 0px 32px;
+  }
+  nav ul li a:hover{
+      color: #c0d96f;
+  }
+  nav ul li .active{
+      color:#c0d96f
+  }
+  .image img{
+      width: 100%;
+      height: 0px auto;
+      opacity: 0.9;
+  }
+   .gmap_canvas {
+     overflow: hidden;
+     background: none !important;
+     height: 450px;
+     width: 450px;
+ }
+  .gmap_canvas {
+     overflow: hidden;
+     background: none !important;
+     height: 400px;
+     width: 400px;
+ }
+ .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 493px;
+              width: 599px;
+ }
+   .inner-footer{
+      margin: 0;
+      padding: 0;
+      background-color: #272727;
+  }
+  .social-links{
+      display: flex;
+  }
+  .social-links ul{
+      display: flex;
+  }
+  .social-items{
+      list-style: none;
+  }
+  .social-items a{
+      padding: 10px 20px;
+      font-size: 35px;
+      color: #fff;
+  }
+  .social-items:hover{
+      Background-color: lightblue;
+      Opacity: 0.8;
+  }
+  .outer-footer{
+      color: #fff;
+      font-size: 10px;
+      text-align: center;
+  }
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  }
+  
